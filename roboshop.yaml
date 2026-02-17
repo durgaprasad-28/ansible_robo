@@ -8,6 +8,7 @@
     domain_name: durgarasad.online
     env: dev
     action: create
+    instances:
   tasks:
   ### CREATE ###
   - name: create ec2 instance
