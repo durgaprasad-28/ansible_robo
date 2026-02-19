@@ -1,0 +1,7 @@
+- name: executing from common
+  ansible.builtin.debug:
+  msg: "hello1"
+  ansible.builtin.debug:
+  msg: "hello2"
+  ansible.builtin.debug:
+  msg: "hello3"
